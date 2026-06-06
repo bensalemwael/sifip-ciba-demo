@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Adaptive icon foreground : wrappe le logo SIFIP officiel avec un
+    padding pour respecter la safe-zone (66 dp visibles sur 108 dp).
+-->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/sifip_logo"
+    android:inset="16dp" />

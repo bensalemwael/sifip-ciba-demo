@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Banque (BMOI-style purple) -->
+    <color name="bank_purple">#5D2D8A</color>
+    <color name="bank_purple_dark">#44206A</color>
+
+    <!-- SIFIP (consentement bleu + accent doré) -->
+    <color name="sifip_blue">#1F4FB5</color>
+    <color name="sifip_blue_dark">#143780</color>
+    <color name="sifip_blue_deep">#0B2049</color>
+    <color name="sifip_gold">#F2B033</color>
+
+    <color name="background">#F5F5F8</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="status_ok">#2E7D32</color>
+    <color name="status_warn">#F2B033</color>
+    <color name="status_error">#C62828</color>
+</resources>

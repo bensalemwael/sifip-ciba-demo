@@ -1,0 +1,1 @@
+-keep class com.sifip.cibademo.data.model.** { *; }

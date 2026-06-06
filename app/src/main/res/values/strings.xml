@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Demo CIBA SIFIP</string>
+
+    <!-- Login -->
+    <string name="login_title">Identification</string>
+    <string name="login_subtitle">Bienvenue sur BMOI Mobile Banking</string>
+    <string name="login_phone_label">Numéro de téléphone</string>
+    <string name="login_phone_hint">+261 32 12 345 67</string>
+    <string name="login_button">Valider</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Accueil</string>
+    <string name="dashboard_hello">Bonjour, %1$s</string>
+    <string name="dashboard_last_login">Dernière connexion : %1$s</string>
+    <string name="dashboard_tile_accounts">Comptes</string>
+    <string name="dashboard_tile_transfers">Virements</string>
+    <string name="dashboard_tile_services">Services</string>
+    <string name="dashboard_tile_contact">Contact</string>
+
+    <!-- Transfer -->
+    <string name="transfer_title">Effectuer un virement</string>
+    <string name="transfer_debit_label">Compte à débiter</string>
+    <string name="transfer_credit_label">Compte à créditer</string>
+    <string name="transfer_recipient">Bénéficiaire</string>
+    <string name="transfer_iban">IBAN / RIB</string>
+    <string name="transfer_amount">Montant</string>
+    <string name="transfer_motif">Motif</string>
+    <string name="transfer_currency">MGA</string>
+    <string name="transfer_button">Valider</string>
+
+    <!-- Waiting -->
+    <string name="waiting_title">Demande de consentement en cours…</string>
+    <string name="waiting_subtitle">Vous allez recevoir un SMS pour confirmer l\'activation du service Fraud Engine SIFIP.</string>
+    <string name="waiting_sms_sender">BMOI</string>
+    <string name="waiting_sms_preview">Virement de %1$s MGA vers %2$s. Toucher pour autoriser via SIFIP.</string>
+
+    <!-- Consent -->
+    <string name="consent_title">Demande de consentement</string>
+    <string name="consent_bank_intro">souhaite activer le service Fraud Engine SIFIP pour sécuriser ce virement</string>
+    <string name="consent_scopes_header">Périmètre de l\'autorisation</string>
+    <string name="consent_validity">Validité : 24h · Révocable à tout moment</string>
+    <string name="consent_footer">Powered by SIFIP · Conforme RGPD</string>
+    <string name="consent_reject">Refuser</string>
+    <string name="consent_approve">Autoriser</string>
+
+    <!-- Activation -->
+    <string name="activation_title">Activation Fraud Engine SIFIP</string>
+    <string name="activation_step_connect">Connexion à SIFIP</string>
+    <string name="activation_step_activate">Activation Fraud Engine</string>
+    <string name="activation_step_analyze">Analyse de la transaction</string>
+
+    <!-- Success / Failed -->
+    <string name="success_title">Virement confirmé</string>
+    <string name="rejected_by_fraud_title">Virement bloqué</string>
+    <string name="rejected_by_user_title">Virement annulé</string>
+    <string name="rejected_by_user_subtitle">Vous avez refusé le consentement. SIFIP n\'a pas pu sécuriser ce virement.</string>
+    <string name="success_back">Retour au tableau de bord</string>
+</resources>
