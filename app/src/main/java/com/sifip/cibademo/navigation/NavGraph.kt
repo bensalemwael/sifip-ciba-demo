@@ -60,7 +60,7 @@ fun AppNavGraph() {
         }
 
         composable(Routes.LOGIN) {
-            val vm: LoginViewModel = viewModel(factory = LoginViewModelFactory())
+            val vm: LoginViewModel = viewModel(factory = LoginViewModelFactory(app))
             LoginScreen(
                 viewModel = vm,
                 onAuthenticated = {
